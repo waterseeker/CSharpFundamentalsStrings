@@ -26,13 +26,17 @@ namespace CSharpFundamentalsStrings
             //    myString += "--" + i.ToString();
             //}
 
-            StringBuilder myString = new StringBuilder();
+            //StringBuilder myString = new StringBuilder();
 
-            for (int i = 0; i < 100; i++)
-            {
-                myString.Append("--");
-                myString.Append(i);
-            }
+            //for (int i = 0; i < 100; i++)
+            //{
+            //    myString.Append("--");
+            //    myString.Append(i);
+            //}
+
+            string myString = "That summer we took threes across the board";
+
+            myString = myString.Substring(5, 14);
 
             Console.WriteLine(myString);
             Console.ReadLine();
