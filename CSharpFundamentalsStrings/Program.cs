@@ -21,7 +21,8 @@ namespace CSharpFundamentalsStrings
 
             for (int i = 0; i < 100; i++)
             {
-                myString = myString + "--" + i.ToString();
+                //myString = myString + "--" + i.ToString();
+                myString += "--" + i.ToString();
             }
 
             Console.WriteLine(myString);
