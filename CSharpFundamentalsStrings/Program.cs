@@ -37,7 +37,8 @@ namespace CSharpFundamentalsStrings
             string myString = "That summer we took threes across the board";
 
             //myString = myString.Substring(5, 14);
-            myString = myString.ToUpper();
+            //myString = myString.ToUpper();
+            myString = myString.Replace(" ", "--");
 
             Console.WriteLine(myString);
             Console.ReadLine();
