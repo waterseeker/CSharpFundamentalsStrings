@@ -36,7 +36,8 @@ namespace CSharpFundamentalsStrings
 
             string myString = "That summer we took threes across the board";
 
-            myString = myString.Substring(5, 14);
+            //myString = myString.Substring(5, 14);
+            myString = myString.ToUpper();
 
             Console.WriteLine(myString);
             Console.ReadLine();
