@@ -6,7 +6,12 @@ namespace CSharpFundamentalsStrings
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            string myString = "Go to your c:\\ drive";
+
+            Console.WriteLine(myString);
+            Console.ReadLine();
+
+
         }
     }
 }
