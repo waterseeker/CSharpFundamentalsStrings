@@ -8,12 +8,12 @@ namespace CSharpFundamentalsStrings
         {
             //string myString = "Go to your c:\\ drive";
             //string myString = "My \"SortedDictionary called\" life";
-            string myString = "What if I need \n a new line?";
+            //string myString = "What if I need \n a new line?";
+
+            string myString = string.Format("{0}!", "Bonzai");
 
             Console.WriteLine(myString);
             Console.ReadLine();
-
-
         }
     }
 }
