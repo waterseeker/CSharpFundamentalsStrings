@@ -11,7 +11,8 @@ namespace CSharpFundamentalsStrings
             //string myString = "What if I need \n a new line?";
 
             //string myString = string.Format("{0}!", "Bonzai");
-            string myString = string.Format("Make: {0} (Model: {1})", "BMW", "760li");
+            //string myString = string.Format("Make: {0} (Model: {1})", "BMW", "760li");
+            string myString = string.Format("{0:C}", 123.45);
 
             Console.WriteLine(myString);
             Console.ReadLine();
