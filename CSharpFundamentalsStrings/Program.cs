@@ -34,12 +34,12 @@ namespace CSharpFundamentalsStrings
             //    myString.Append(i);
             //}
 
-            string myString = "That summer we took threes across the board";
+            string myString = "  That summer we took threes across the board            ";
 
             //myString = myString.Substring(5, 14);
             //myString = myString.ToUpper();
-            myString = myString.Replace(" ", "--");
-
+            //myString = myString.Replace(" ", "--");
+            myString = String.Format("Length before: {0} -- After: {1}", myString.Length, myString.Trim().Length);
             Console.WriteLine(myString);
             Console.ReadLine();
         }
